@@ -1,0 +1,109 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #f857a6, #ff5858);
+}
+
+body div {
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+div {
+  padding: 20px;
+  width: 302px;
+  margin: 7% auto;
+}
+
+div * {
+  margin: 0 auto;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+li {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  word-break: break-all;
+}
+
+/* li:hover {
+  background-color: #eee;
+}
+
+li:hover > i {
+  color: #ff0000;
+} */
+
+/* i:hover {
+  cursor: pointer;
+} */
+
+input, button {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #FFD1DC;
+  color: white;
+  display: block;
+  border-color: #eee;
+  margin-bottom: 0px;
+}
+
+button:hover {
+  background-color: #ff1493;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+.material-icons{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+.material-icons.xout {
+  float: right;
+  clear: right;
+}
+
+a {
+  color: #ff69b4;
+  opacity: .5;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+a .material-icons {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#welcome {
+  width: 434px;
+}
+
+#enter {
+  padding-top: 20px;
+  text-align: right;
+}
