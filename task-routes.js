@@ -4,8 +4,7 @@ var router = express.Router();
 
 var taskDb = inMemoryDatabase();
 
-taskDb.init([
-]);
+taskDb.init([]);
 
 router.get("/tasks", function(req, res) {
   res.send(taskDb.readAll());

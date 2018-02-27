@@ -5,7 +5,6 @@
       `
       <div>
         <p><a href="#!/welcome"><i class="material-icons">arrow_back</i>Go back</a></p>
-        </a>
         <h1>TODO List</h1>
         <p>A place to store the things you have to do!</p>
         <input placeholder="Filter your to-dos" ng-model="search">
@@ -32,9 +31,9 @@
           })
         }
 
-        vm.addTodo = function(task) {
-          var taskObj = { task: task};
-          // console.log(taskObj);
+        vm.addTodo = function(inputTask) {
+          var taskObj = { task: inputTask};
+          console.log(taskObj);
           TaskService.addTask(taskObj).then(loadItems());
           vm.todo="";
         };

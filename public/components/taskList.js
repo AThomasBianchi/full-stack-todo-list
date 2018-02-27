@@ -1,6 +1,7 @@
+// this isn't necessary anymore!
+
 (function() {
   var taskList = {
-
     template:`
       <input placeholder="Filter your to-dos" ng-model="search">
       <ol>
